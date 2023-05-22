@@ -1,0 +1,10 @@
+python complete.py  C:\Users\hasee\.spyder-py3\dcgan-completion.tensorflow-master\data\jaffe1\KA.NE2.27.tiff   --outDir outputImages
+
+python complete.py  C:\Users\hasee\.spyder-py3\dcgan-completion.tensorflow-master\samples1\train_03_0000.tiff  --outDir outputImages
+
+python complete.py  C:\Users\hasee\.spyder-py3\dcgan-completion.tensorflow-master\samples1\903_faceimage67418.jpg     --maskType random   --centerScale  0.2   
+ 
+python complete.py      --maskType random   --centerScale  0.2  
+
+
+python complete.py  ./data/jaffe1/*   --outDir outputImages
